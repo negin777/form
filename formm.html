@@ -1,0 +1,59 @@
+<html>
+<style>
+    body {
+        background-color: black;
+        direction: rtl;
+        color: blueviolet;
+        font-family: 'times new roman', times, serif;
+    }
+    
+    form {
+        background-color: white;
+        color: black;
+    }
+</style>
+
+<body>
+    <h1 style="direction:rtl;text-align:center;font-family:'times new roman',times,serif;"></h1>
+    <form>
+        <!استفاده از تگfieldset>
+        <fieldset>
+            <legend>فرم ثبت نام</legend>
+            <fieldset>
+                <legend>مشخصات فردی</legend>
+                نام :<input type="text" name="firsname" value=""><br><br> نام خانوادگی:<input type="text" name="lastname" value=""><br><br> رمز عبور:<input type="password" name="your-pass" value=""><br><br> <br><br>
+            </fieldset>
+            </br>
+            <fieldset>
+                <legend>جنسیت</legend>
+                زن:<input type="radio" name="female" value=""><br><br> مرد:
+                <input type="radio" name="male" value=""><br><br><br><br>
+            </fieldset>
+            </br>
+            <fieldset>
+                <legend>نظر سنجی</legend>
+                عالی:<input type="checkbox" name "excellent"value="" <br><br> خوب:
+                <input type="checkbox" name "good"value="" <br><br> ضعیف:
+                <input type="checkbox" name "weak"value="" <br><br><br><br>
+            </fieldset><br>
+
+            <!استفاده از تگselect>
+
+            <lable> نام شهر خود را انتخاب کنید</lable>
+            </br>
+            <select name="city select[]" multiple="multiple">
+<option value="select">انتخاب کنید</option>
+<option>value="ahar"اهر</option>
+<option>value="tabriz"تبریز</option>
+<option>value="tehran"تهران</option>
+</select><br>
+
+            <label>توضیحات اضافی را بنویسید</label></br>
+            <!استفاده از تگ textarea>
+
+            <textarea name="text- area" cols "50" rows="10">توضیحات</textarea>
+        </fieldset>
+    </form>
+</body>
+
+</html>
